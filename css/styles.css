@@ -7,6 +7,7 @@
     --color-background: #0a0a0a;
     --color-text: rgba(255, 255, 255, 0.7);
     --signature-gradient: linear-gradient(45deg, var(--color-primary), var(--color-accent));
+    --signature-blur: blur(12px);
 }
 
 *, 
@@ -101,4 +102,23 @@ h4 {
 
 .btn--block {
     width: 100%;
+}
+
+/* Cards */
+.card {
+    backdrop-filter: var(--signature-blur);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.card__header {
+    padding: 3rem 3.5rem;
+}
+
+.card__content {
+    padding: 0 3.5rem 3rem;
+}
+
+.card-glass {
+    background-color: rgba(247, 202, 201, 0.05);
 }
