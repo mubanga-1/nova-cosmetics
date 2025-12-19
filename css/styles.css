@@ -590,3 +590,92 @@ h4 {
 .booking__form {
     margin: 0 auto;
 }
+
+/* Footer */
+.footer {
+    font-size: 1.7rem;
+}
+
+.footer__heading {
+    color: #fff;
+}
+
+.footer__grid {
+    gap: 3rem;
+}
+
+.footer__nav .footer__list {
+    padding-left: 2.35rem;
+}
+
+.footer__list .list__item {
+    margin-bottom: 1.6rem;
+}
+
+.footer__link {
+    transition: .3s ease;
+}
+
+.footer__link:hover {
+    color: var(--color-primary);
+}
+
+.brand-info {
+    order: -1;
+}
+
+.brand-info__header {
+    margin-bottom: 3rem;
+}
+
+.brand-info__footer, .footer-icon-wrapper, .contact{
+    display: flex;
+}
+
+.brand-info__footer, .footer-icon-wrapper {
+    gap: 2rem;
+}
+
+.footer-icon-wrapper {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(247, 202, 201, 0.1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transition: .3s ease;
+}
+
+.footer-icon-wrapper:hover {
+    background-color: var(--color-primary);
+    transform: scale(1.15);
+}
+
+.footer__icon {
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact {
+    align-items: center;
+    gap: .5rem;
+}
+
+.footer__seperator {
+    height: 1px;
+    border: 0;
+    background-color: rgba(247, 202, 201, 0.12);
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
