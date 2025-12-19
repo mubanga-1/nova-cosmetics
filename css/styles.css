@@ -107,12 +107,13 @@ h4 {
 /* Cards */
 .card {
     backdrop-filter: var(--signature-blur);
+    background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
 }
 
 .card__header {
-    padding: 3rem 3.5rem;
+    padding: 3rem 3.5rem 0;
 }
 
 .card__content {
@@ -148,4 +149,38 @@ h4 {
     .list__item {
         font-size: 1.7rem;
     }
+}
+
+/* Plans */
+.plan {
+    padding: 3.2rem;
+    text-align: center;
+    min-width: 300px;
+    transition: .3s ease;
+}
+
+.plan:hover {
+    border-color: var(--color-primary);
+}
+
+.plan__header {
+    margin-bottom: 3rem;
+}
+
+.plan__pricing {
+    font-size: 1.6rem;
+}
+
+.plan__price {
+    font-size: 4rem;
+    color: var(--color-accent);
+    margin-right: 12px;
+}
+
+.plan__details {
+    margin-bottom: 3.2rem;
+}
+
+.plan__detail {
+    margin-bottom: 2rem;
 }
