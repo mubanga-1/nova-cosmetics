@@ -50,6 +50,12 @@ h4 {
     margin-bottom: 2.2rem;
 }
 
+.heading {
+    background-image: var(--signature-gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media screen and (min-width: 1024px) {
     h1 {
         font-size: 6.4rem;
@@ -125,7 +131,8 @@ h4 {
 
 .glass-panel {
     backdrop-filter: var(--signature-blur);
-    background-color: rgba(247, 202, 201, 0.05);
+    background: rgba(247, 202, 201, 0.05);
+    border: 1px solid rgba(255, 255, 255, .1);
 }
 
 /* Lists */
@@ -414,9 +421,6 @@ h4 {
 .brand-logo {
     font-size: 3.2rem;
     font-weight: 700;
-    background-image: var(--signature-gradient);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 1024px) {
@@ -514,4 +518,23 @@ h4 {
         justify-content: start;
     }
 
+}
+
+/* Consultation */
+.consultation__header {
+    text-align: center;
+}
+
+.consultation .grid {
+    margin: 3rem 0 0;
+    padding: 3.2rem;
+    max-width: 970px;
+    min-height: 400px;
+    align-content: end;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.consultation__option {
+    padding: 3.2rem;
 }
