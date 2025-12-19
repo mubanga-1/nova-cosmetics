@@ -118,7 +118,7 @@ h4 {
     padding: 0 3.5rem 3rem;
 }
 
-.card--glass {
+.glass-panel {
     backdrop-filter: var(--signature-blur);
     background-color: rgba(247, 202, 201, 0.05);
 }
@@ -262,4 +262,43 @@ h4 {
 .media__icon {
     font-size: 4rem;
     color: var(--color-primary);
+}
+
+/* Testimonial */
+.testimonial {
+    padding: 3.2rem;
+    border-radius: 15px;
+}
+
+.testimonial__quote {
+    text-align: center;
+    font-style: italic;
+}
+
+.testimonial__footer {
+    margin-top: 3.7rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.testimonial__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.testimonial__image img {
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial__author {
+    margin: 0;
+}
+
+.testimonial__treatment {
+    font-size: 1.4rem;
 }
