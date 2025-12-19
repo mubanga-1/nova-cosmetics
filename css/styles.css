@@ -122,3 +122,30 @@ h4 {
 .card-glass {
     background-color: rgba(247, 202, 201, 0.05);
 }
+
+/* Lists */
+
+.list {
+    list-style-type: none;
+}
+
+.list--inline {
+    display: flex;
+    gap: 2rem;
+}
+
+.list--tick .list__item::before {
+    content: "✓";
+    color: var(--color-primary);
+    margin-right: 10px;
+}
+
+.list__item {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .list__item {
+        font-size: 1.7rem;
+    }
+}
