@@ -302,3 +302,29 @@ h4 {
 .testimonial__treatment {
     font-size: 1.4rem;
 }
+
+/* Inputs */
+.input-label {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-bottom: .9rem;
+}
+
+.input {
+    color: #fff;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background-color: rgba(30, 30, 35, 0.8);
+    padding: 1.3rem;
+    font-size: 1.6rem;
+    transition: .3s ease;   
+    width: 100%;
+}
+
+.input:focus {
+    box-shadow: rgba(255, 42, 109, 0.3) 0px 0px 0px 2px;
+    outline: none;
+    border-color: var(--color-primary);
+    background: rgba(40, 40, 45, 0.9);
+}
