@@ -374,6 +374,7 @@ h4 {
 }
 
 .nav__links {
+    margin-top: 20px;
     opacity: 0;
     display: none;
 }
@@ -440,4 +441,16 @@ h4 {
 
 .assistant__icon {
     font-size: 2.5rem;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 5%;
+    margin: 0 auto;
+    background-color: rgba(10, 10, 10, 0.8);
+    backdrop-filter: var(--signature-blur);
 }
