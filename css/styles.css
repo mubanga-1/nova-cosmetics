@@ -241,3 +241,25 @@ h4 {
     }
 
 }
+
+/* Media */
+.media {
+    padding: 3.2rem;
+}
+
+.media__header {
+    margin-bottom: 2.4rem;
+}
+
+.media__heading {
+    color: #fff;
+}
+
+.media__text {
+    font-size: 1.7rem;
+}
+
+.media__icon {
+    font-size: 4rem;
+    color: var(--color-primary);
+}
