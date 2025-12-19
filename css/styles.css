@@ -418,3 +418,26 @@ h4 {
         opacity: 1;
    } 
 }
+
+/* Assistant */
+.assistant {
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    transition: .3s ease;
+}
+
+.assistant:hover {
+    transform: scale(1.15);
+}
+
+.assistant__icon {
+    font-size: 2.5rem;
+}
