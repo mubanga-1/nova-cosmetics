@@ -383,6 +383,10 @@ h4 {
     padding: 1.5rem;
 }
 
+.section {
+    margin: 8rem auto;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         padding: 5rem;
@@ -442,6 +446,7 @@ h4 {
 
 /* Assistant */
 .assistant {
+    z-index: 1;
     cursor: pointer;
     position: fixed;
     right: 30px;
@@ -465,6 +470,7 @@ h4 {
 
 /* Header */
 .header {
+    z-index: 1;
     position: fixed;
     left: 0;
     top: 0;
@@ -536,7 +542,7 @@ h4 {
 }
 
 .consultation .grid {
-    margin: 3rem 0 0;
+    margin: 3rem auto 0;
     padding: 3.2rem;
     max-width: 970px;
     min-height: 400px;
@@ -626,6 +632,14 @@ h4 {
 
 .brand-info__header {
     margin-bottom: 3rem;
+}
+
+.footer .brand-logo {
+    margin-bottom: 2rem;
+}
+
+.brand-info__motto {
+    line-height: 1.5;
 }
 
 .brand-info__footer, .footer-icon-wrapper, .contact{

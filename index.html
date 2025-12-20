@@ -8,6 +8,503 @@
     <title>Nova</title>
   </head>
   <body>
+    <header class="header">
+      <nav class="nav">
+        <section class="nav__left">
+          <a href="#" class="link heading brand-logo">NOVA</a>
+        </section>
+        <section class="nav__middle">
+          <ul class="list list--inline nav__links">
+            <li class="list__item">
+              <a href="#" class="link nav__link">Treatments</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link nav__link">Pricing</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link nav__link">Results</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link nav__link">Consultation</a>
+            </li>
+          </ul>
+        </section>
+        <section class="nav__right">
+          <button class="btn btn--primary">Book Now</button>
+        </section>
+      </nav>
+    </header>
+    <section class="container hero section">
+      <div class="btn--primary assistant">
+        <span class="fa-solid fa-robot assistant__icon"></span>
+      </div>
+
+      <div class="grid grid--1x2">
+        <div class="hero__content">
+          <h1 class="hero__heading">
+            redefine your beauty with precision aesthetics
+          </h1>
+          <p class="hero__text">
+            Experience the future of cosmetic enhancement with our AI-powered
+            treatments and genetic-based approach to beauty optimization.
+          </p>
+        </div>
+        <img src="images/Project Graphic.png" class="hero__image" />
+      </div>
+      <div class="btn-wrapper hero__btn-wrapper">
+        <button class="btn btn--primary hero__btn">Virtual Consultation</button>
+        <button class="btn btn--outline hero__btn">Explore Treatments</button>
+      </div>
+    </section>
+    <section class="container consultation section">
+      <div class="consultation__header">
+        <h2 class="heading consultation__heading">
+          AI-Powered Virtual Consultation
+        </h2>
+        <p class="consultation__text">
+          Experience our cutting-edge diagnostic tools from the comfort of your
+          home
+        </p>
+      </div>
+      <div class="glass-panel grid grid--1x3">
+        <div class="media consultation__option">
+          <div class="media__header">
+            <span class="fa-solid fa-camera media__icon"></span>
+          </div>
+          <div class="media__info">
+            <h3 class="media__heading">3D Face Mapping</h3>
+            <div class="media__text">
+              Our AI analyzes 142 facial data points to create a personalized
+              treatment plan tailored to your unique features.
+            </div>
+          </div>
+        </div>
+        <div class="media consultation__option">
+          <div class="media__header">
+            <span class="fa-solid fa-robot media__icon"></span>
+          </div>
+          <div class="media__info">
+            <h3 class="media__heading">AI Treatment Advisor</h3>
+            <div class="media__text">
+              Get recommendations based on millions of data points from similar
+              profiles and desired outcomes.
+            </div>
+          </div>
+        </div>
+        <div class="media consultation__option">
+          <div class="media__header">
+            <span class="fa-solid fa-vr-cardboard media__icon"></span>
+          </div>
+          <div class="media__info">
+            <h3 class="media__heading">AR Preview</h3>
+            <div class="media__text">
+              Visualize potential results in real-time with our augmented
+              reality simulation technology.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container treatments section">
+      <div class="treatments__header">
+        <h2 class="heading treatments__heading">Signature Treatments</h2>
+        <p>Our most sought-after aesthetic enhancements</p>
+      </div>
+      <div class="grid grid--1x3 treatments__gallery">
+        <div class="treatment">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="images/Picture 1.webp 1x, images/Picture 1@2x.webp 2x, images/Picture 1@3x.webp 3x"
+            />
+
+            <source
+              type="image/jpg"
+              srcset="images/Picture 1.jpg 1x, images/Picture 1@2x.jpg 2x, images/Picture 1@3x.jpg 3x"
+            />
+
+            <img
+              class="treatment__img"
+              src="images/Picture 1.jpg"
+              alt="Woman receiving a medical procedure"
+            />
+          </picture>
+          <div class="treatment__info">
+            <h3 class="treatment__name">Nano Botox</h3>
+            <p class="treatment__price">From $499</p>
+          </div>
+        </div>
+        <div class="treatment">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="images/Picture 2.webp 1x, images/Picture 2@2x.webp 2x, images/Picture 2@3x.webp 3x"
+            />
+
+            <source
+              type="image/jpg"
+              srcset="images/Picture 2.jpg 1x, images/Picture 2@2x.jpg 2x, images/Picture 2@3x.jpg 3x"
+            />
+
+            <img
+              class="treatment__img"
+              src="images/Picture 2.jpg"
+              alt="Woman receiving a face lift"
+            />
+          </picture>
+          <div class="treatment__info">
+            <h3 class="treatment__name">Plasma Lift</h3>
+            <p class="treatment__price">From $799</p>
+          </div>
+        </div>
+        <div class="treatment">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="images/Picture 3.webp 1x, images/Picture 3@2x.webp 2x, images/Picture 3@3x.webp 3x"
+            />
+
+            <source
+              type="image/jpg"
+              srcset="images/Picture 3.jpg 1x, images/Picture 3@2x.jpg 2x, images/Picture 3@3x.jpg 3x"
+            />
+
+            <img
+              class="treatment__img"
+              src="images/Picture 3.jpg"
+              alt="Woman's luxuriant hair"
+            />
+          </picture>
+          <div class="treatment__info">
+            <h3 class="treatment__name">Laser Resurfacing</h3>
+            <p class="treatment__price">From $1299</p>
+          </div>
+        </div>
+        <div class="treatment">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="images/Picture 4.webp 1x, images/Picture 4@2x.webp 2x, images/Picture 4@3x.webp 3x"
+            />
+
+            <source
+              type="image/jpg"
+              srcset="images/Picture 4.jpg 1x, images/Picture 4@2x.jpg 2x, images/Picture 4@3x.jpg 3x"
+            />
+
+            <img
+              class="treatment__img"
+              src="images/Picture 4.jpg"
+              alt="cells under a microscope"
+            />
+          </picture>
+          <div class="treatment__info">
+            <h3 class="treatment__name">Stem Cell Facial</h3>
+            <p class="treatment__price">From $899</p>
+          </div>
+        </div>
+        <div class="treatment">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="images/Picture 5.webp 1x, images/Picture 5@2x.webp 2x, images/Picture 5@3x.webp 3x"
+            />
+
+            <source
+              type="image/jpg"
+              srcset="images/Picture 5.jpg 1x, images/Picture 5@2x.jpg 2x, images/Picture 5@3x.jpg 3x"
+            />
+
+            <img
+              class="treatment__img"
+              src="images/Picture 5.jpg"
+              alt="A person's lips after getting filler"
+            />
+          </picture>
+          <div class="treatment__info">
+            <h3 class="treatment__name">Lip Enhancement</h3>
+            <p class="treatment__price">From $599</p>
+          </div>
+        </div>
+        <div class="treatment">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="images/Picture 6.webp 1x, images/Picture 6@2x.webp 2x, images/Picture 6@3x.webp 3x"
+            />
+
+            <source
+              type="image/jpg"
+              srcset="images/Picture 6.jpg 1x, images/Picture 6@2x.jpg 2x, images/Picture 6@3x.jpg 3x"
+            />
+
+            <img
+              class="treatment__img"
+              src="images/Picture 6.jpg"
+              alt="Woman's hair being washed"
+            />
+          </picture>
+          <div class="treatment__info">
+            <h3 class="treatment__name">Bio-Filler</h3>
+            <p class="treatment__price">From $699</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container plans-block section">
+      <div class="plans-block__header">
+        <h2 class="heading">Transparent Pricing</h2>
+        <p>Invest in yourself with our tiered treatment packages</p>
+      </div>
+      <div class="grid grid--1x3 plans">
+        <div class="glass-panel card card--glass plan">
+          <div class="card__header plan__header">
+            <h3 class="plan__title">Essential</h3>
+            <div class="plan__pricing">
+              <span class="plan__price">$1,200</span>/&nbsp;session
+            </div>
+          </div>
+          <div class="card__content">
+            <ul class="list list--tick plan__details">
+              <li class="list__item plan__detail">Basic facial treatments</li>
+              <li class="list__item plan__detail">Skin analysis</li>
+              <li class="list__item plan__detail">Standard aftercare</li>
+              <li class="list__item plan__detail">1 follow-up</li>
+            </ul>
+            <button class="btn btn--outline">Select Plan</button>
+          </div>
+        </div>
+
+        <div class="glass-panel card card--glass plan">
+          <div class="card__header plan__header">
+            <h3 class="plan__title">Premium</h3>
+            <div class="plan__pricing">
+              <span class="plan__price">$2,500</span>/&nbsp;session
+            </div>
+          </div>
+          <div class="card__content">
+            <ul class="list list--tick plan__details">
+              <li class="list__item plan__detail">Advanced treatments</li>
+              <li class="list__item plan__detail">3D face mapping</li>
+              <li class="list__item plan__detail">Personalized aftercare</li>
+              <li class="list__item plan__detail">3 follow-ups</li>
+              <li class="list__item plan__detail">Priority booking</li>
+            </ul>
+            <button class="btn btn--primary">Select Plan</button>
+          </div>
+        </div>
+
+        <div class="glass-panel card card--glass plan">
+          <div class="card__header plan__header">
+            <h3 class="plan__title">Elite</h3>
+            <div class="plan__pricing">
+              <span class="plan__price">$4,800</span>/&nbsp;session
+            </div>
+          </div>
+          <div class="card__content">
+            <ul class="list list--tick plan__details">
+              <li class="list__item plan__detail">All premium treatments</li>
+              <li class="list__item plan__detail">Genetic analysis</li>
+              <li class="list__item plan__detail">VIP aftercare suite</li>
+              <li class="list__item plan__detail">Unlimited follow-ups</li>
+              <li class="list__item plan__detail">24/7 specialist access</li>
+              <li class="list__item plan__detail">NFT treatment certificate</li>
+            </ul>
+            <button class="btn btn--outline">Select Plan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container testimonial-block section">
+      <div class="testimonial-block__header">
+        <h2 class="heading">Client Tranformations</h2>
+        <p>Real results from our satisfied clients</p>
+      </div>
+      <div class="glass-panel testimonial">
+        <div class="testimonial__header">
+          <blockquote class="testimonial__quote">
+            "The 3D face mapping technology showed me exactly what to expect,
+            and the results were even better than the simulation. My skin hasn't
+            looked this good since my 20s!"
+          </blockquote>
+        </div>
+        <div class="testimonial__footer">
+          <div class="testimonial__image">
+            <img src="images/testimonial.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h4 class="testimonial__author">James T.</h4>
+            <div class="testimonial__treatment">Laser Resurfacing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container booking section">
+      <div class="booking__header">
+        <h2 class="heading">Book Your Transformation</h2>
+        <p>Schedule your consultation with our AI booking assistant</p>
+      </div>
+      <form class="glass-panel form booking__form">
+        <div class="grid grid--1x2 input-group">
+          <div class="input-wrapper">
+            <label for="name" class="input-label">Full Name</label>
+            <div>
+              <input class="input" type="text" id="name" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <label for="email" class="input-label">Email</label>
+            <div>
+              <input class="input" type="email" id="email" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <label for="phone" class="input-label">Phone</label>
+            <div>
+              <input class="input" type="text" id="phone" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <label for="treatment" class="input-label"
+              >Treatment interest</label
+            >
+            <div>
+              <select id="treatment" class="input">
+                <option selected disabled>Select a treatment</option>
+                <option value="nano-botox">Nano Botox</option>
+                <option value="plasma-lift">Plasma lift</option>
+                <option value="laser-resurfacing">Laser Resurfacing</option>
+                <option value="stem-cell">Stem Cell Facial</option>
+                <option value="lip-enhancement">Lip Enhancement</option>
+                <option value="bio-filler">Bio Filler</option>
+                <option value="consultation">Consultation Only</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <label for="date" class="input-label">Preferred Date</label>
+            <div>
+              <input class="input" type="date" id="date" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <label for="time" class="input-label">Preferred Time</label>
+            <div>
+              <select class="input" id="time">
+                <option selected disabled>Select a time</option>
+                <option value="morning">Morning (9am-12pm)</option>
+                <option value="afternoon">Afternoon (12pm-4pm)</option>
+                <option value="evening">Evening (4pm-7pm)</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <label for="requests" class="input-label">Special Requests</label>
+            <div>
+              <textarea class="input form__textarea" id="requests"></textarea>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn--primary btn--block form__button">
+          Virtual Consultation
+        </button>
+      </form>
+    </section>
+    <footer class="container footer">
+      <div class="grid grid--1x2 footer__grid">
+        <div class="footer__nav">
+          <h4 class="footer__heading">Treatments</h4>
+          <ul class="footer__list">
+            <li class="list__item">
+              <a href="#" class="link footer__link">Facial Aesthetics</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link footer__link">Body Contouring</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link footer__link">Skin Regeneration</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link footer__link">Hair Restoration</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link footer__link">Wellness Therapies</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__nav">
+          <h4 class="footer__heading">Company</h4>
+          <ul class="footer__list">
+            <li class="list__item">
+              <a href="#" class="link footer__link">About Us</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link footer__link">Our Technology</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link footer__link">Medical Team</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link footer__link">Research</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="link footer__link">Careers</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacts-list">
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="list footer__list">
+            <li class="list__item contact">
+              <div class="fa fa-map-marker-alt"></div>
+              <div class="contact__text">100 Beauty Avenue, Neo District</div>
+            </li>
+            <li class="list__item contact">
+              <div class="fa fa-phone"></div>
+              <div class="contact__text">(555) 123-4567</div>
+            </li>
+            <li class="list__item contact">
+              <div class="fa fa-envelope"></div>
+              <div class="contact__text">contact@novaaesthetics.com</div>
+            </li>
+            <li class="list__item contact">
+              <div class="fa fa-clock"></div>
+              <div class="contact__text">Mon-Sat: 9am-8pm</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="brand-info">
+          <div class="brand-info__header">
+            <div class="brand-logo heading">NOVA</div>
+            <p class="brand-info__motto">
+              Pioneering the future of aesthetic medicine through biotechnology
+              and artificial intelligence.
+            </p>
+          </div>
+          <div class="brand-info__footer">
+            <a href="#" class="footer-icon-wrapper"
+              ><span class="fa-brands fa-instagram footer__icon"></span></a
+            ><a href="#" class="footer-icon-wrapper">
+              <span class="fa-brands fa-tiktok footer__icon"></span></a
+            ><a href="#" class="footer-icon-wrapper"
+              ><span class="fa-brands fa-linkedin-in footer__icon"></span></a
+            ><a href="#" class="footer-icon-wrapper"
+              ><span class="fa fa-youtube footer__icon"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+      <hr class="footer__seperator" />
+      <p class="copyright">
+        &copy; 2025 NOVA Aesthetics. All rights reserved.&nbsp;|&nbsp;
+        <a href="#">Privacy Policy</a>&nbsp;|&nbsp;<a href="#"
+          >Terms of Service</a
+        >
+      </p>
+    </footer>
     <script
       src="https://kit.fontawesome.com/1dfd17eb48.js"
       crossorigin="anonymous"
