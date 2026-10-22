@@ -35,7 +35,7 @@ This project ties in together all that I learned about html and css in line with
 
 ## Live Preview
 
-This project as been deployed to [https://mubanga-1.github.io/nova-practise-project/](github pages)
+This project as been deployed to [https://mubanga-1.github.io/nova-cosmetics/](github pages)
 
 ## 📄 License
 
